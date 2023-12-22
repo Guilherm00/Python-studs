@@ -1,12 +1,11 @@
-#financiamento de casa 
+#financiamento de casa
 val_casa = float(input("Qual o valor da casa desejada?"))
 salario = float(input("Qual seu salário atual ?"))
-meses = int (input("Em quantos anos pretende pagar?"))
+anos = int (input("Em quantos anos pretende pagar?"))
 
-val_parc = val_casa / meses
+val_parc = val_casa / (anos * 12) 
 
-print("O valor da mensalidade é :")
-print(val_parc)
+print("O valor da mensalidade para uma casa no valor de R${:.3f} é R${:.3f}".format(val_casa, anos))
 
 if val_parc <= 0.3* salario :
   print("Você esta apto a fazer o financiamento")
