@@ -1,7 +1,5 @@
-#soma de pares
-soma = 0
-for n in range(0,6):
-  n1 = int (input("digite um numero: "))  
-  if n1 % 2 ==0 :
-   soma += n1
-print ("A soma dos números pares é:{}".format(soma))
+#tabuada 49
+num = int (input("Qual tabuada você deseja:"))
+for n in range(1,11):
+  result = num * n
+  print("{}x{}= {}".format(num,n,result) )

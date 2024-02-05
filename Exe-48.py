@@ -1,5 +1,6 @@
-#tabuada
-num = int (input("Qual tabuada você deseja:"))
-for n in range(1,11):
-  result = num * n 
-  print("{}x{}= {}".format(num,n,result) )
+#soma de numeros ímpares 48
+n = 0
+for p in range(1,500):
+  if p % 3 == 0 :
+    n = n+p
+print("A soma dos números ímpares que são multiplo de 3 é: {}".format(n))
