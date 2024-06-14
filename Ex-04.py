@@ -1,0 +1,8 @@
+n = input("digite algo: ")
+print('O valor digitado é alfa númerico ? :',n.isalnum())
+print('O valor digitado faz parte do alfabeto?',n.isalpha())
+print('O valor digitado é um número decimal?',n.isdecimal())
+print(n.isdigit())
+print(n.islower())
+print(n.isidentifier())
+print(n.isnumeric())
